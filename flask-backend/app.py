@@ -60,4 +60,4 @@ if __name__ == '__main__':
     print("Starting Flask app...")
     # For local development, use app.run
     # For Render, Gunicorn will handle running the app, so this block won't be used there.
-    app.run(debug=True, host='0.0.0.0', port=os.environ.get('PORT', 5000))
+    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
