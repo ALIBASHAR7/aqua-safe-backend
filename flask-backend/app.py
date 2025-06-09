@@ -10,7 +10,7 @@ app = Flask(__name__)
 # IMPORTANT: During deployment, you'll update this with your deployed frontend's URL.
 # For now, allowing all origins is useful for initial testing, but not recommended for production.
 # Replace '*' with your GitHub Pages URL (e.g., 'https://yourusername.github.io') for security.
-CORS(app, origins=["http://localhost:3000", "https://<YOUR_GITHUB_USERNAME>.github.io", "https://*.github.io"]) # Add your GitHub Pages URL here
+CORS(app, origins=["http://localhost:3000", "https://aqua-safe-frontend.onrender.com", "https://*.github.io"]) # Add your GitHub Pages URL here
 
 
 # Load the model
