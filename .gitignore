@@ -1,0 +1,34 @@
+    # Git
+    .git/
+
+    # Node modules
+    node_modules/
+    Frontend/node_modules/
+    .env
+    .env.local
+
+    # Build artifacts
+    build/
+    Frontend/build/
+    dist/
+
+    # Python
+    __pycache__/
+    *.pyc
+    .ipynb_checkpoints/
+    venv/
+    .vscode/
+    .DS_Store
+
+    # Jupyter Notebook
+    .ipynb_checkpoints
+
+    # IDEs
+    .idea/
+
+    # Flask
+    *.flaskenv
+
+    # Specific Python files
+    Backend/models/__pycache__/ # Exclude cache from models
+    
